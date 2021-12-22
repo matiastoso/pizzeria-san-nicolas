@@ -1,0 +1,9 @@
+/* estilos del carousel */
+.carousel-item{
+    height: 600px;
+    text-shadow: 1px 1px 3px black;
+}
+
+.carousel-item img {
+    filter: brightness(0.7)
+}
