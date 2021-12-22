@@ -7,3 +7,13 @@
 .carousel-item img {
     filter: brightness(0.7)
 }
+
+
+/* ----------  estilos de menu  ---------- */
+.contenedor-tablas {
+    background: url("../images/pizza.jpg");
+}
+
+.table-img {
+    max-width: 150px;
+}
