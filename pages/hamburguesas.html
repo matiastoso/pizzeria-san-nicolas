@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Rotisería San Nicolás</title>
+  </head>
+  <body>
+      <!-- nav -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+        <div class="container-fluid">
+          <a class="navbar-brand ms-5" href="#">San Nicolas</a>
+          <button class="navbar-toggler me-5" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Menú
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Recetas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacto</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control btn-outline-light me-2" type="search" placeholder="Menú, receta, etc" aria-label="Search">
+              <button class="btn btn-outline-light me-0 me-lg-5" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <!-- tabla precios -->
+      <div class="container-fluid contenedor-tablas">
+        <section class="container py-4">
+          <h1 class="text-danger text-center mb-3">Precios</h1>
+  
+          <table class="table table-danger">
+            <thead>
+              <tr>
+                <th scope="col"></th> <!-- Espacio en blanco -->
+                <th scope="col">Hamburguesas</th>
+                <th scope="col">Valor</th>
+                <th scope="col">Delivery</th>
+                <th scope="col">Total</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td scope="row"><img class="table-img" src="../images/hamburguesas/simple.jpg" alt="Simple"></td>
+                <td>Simple</td>
+                <td>$250</td>
+                <td>$120</td>
+                <th>$370</th>
+              </tr>
+              <tr>
+                <td scope="row"><img class="table-img" src="../images/hamburguesas/lechuga-tomate.jpg" alt="Lechuga y tomate"></td>
+                <td>Lechuca y tomate</td>
+                <td>$300</td>
+                <td>$120</td>
+                <th>$420</th>
+              </tr>
+              <tr>
+                <td scope="row"><img class="table-img" src="../images/hamburguesas/jamon-queso.jpg" alt="Jamón y queso"></td>
+                <td>Jamón y queso</td>
+                <td>$350</td>
+                <td>$100</td>
+                <th>$450</th>
+              </tr>
+              <tr>
+                <td scope="row"><img class="table-img" src="../images/hamburguesas/completa.jpg" alt="Completa"></td>
+                <td>Completa</td>
+                <td>$450</td>
+                <td>$100</td>
+                <th>$550</th>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+      </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+</html>
